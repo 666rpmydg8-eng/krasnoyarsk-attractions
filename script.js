@@ -4,7 +4,7 @@ const attractions = [
         id: 1,
         name: "Природный парк «Столбы»",
         category: "nature",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+        image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&h=300&fit=crop",
         description: "Уникальный природный парк с красивыми скальными формированиями. Идеальное место для пеших прогулок и скалолазания.",
         coordinates: "55.7642° N, 93.0353° E",
         facts: "Столбы - это государственный природный заповедник, основанный в 1925 году. Площадь около 47,000 га. Высота столбов достигает 100 метров."
@@ -13,7 +13,7 @@ const attractions = [
         id: 2,
         name: "Енисей",
         category: "nature",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+        image: "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=500&h=300&fit=crop",
         description: "Один из крупнейших рек России. Енисей протекает через Красноярск, создавая величественный пейзаж.",
         coordinates: "55.7558° N, 93.0395° E",
         facts: "Енисей - третья по длине река России (3487 км). Впадает в Карское море. Пересекает три климатические зоны."
@@ -31,7 +31,7 @@ const attractions = [
         id: 4,
         name: "Часовня Параскевы Пятницы",
         category: "temple",
-        image: "https://images.unsplash.com/photo-1548625149-fc4a99b01d4d?w=500&h=300&fit=crop",
+        image: "https://images.unsplash.com/photo-1518136247453-74e7b5265980?w=500&h=300&fit=crop",
         description: "Символ города Красноярска. Часовня красиво расположена на скале и видна из разных уголков города.",
         coordinates: "55.7699° N, 93.0315° E",
         facts: "Часовня построена в 1804 году. Находится на высоте 100 метров над уровнем Енисея. С площадки открывается панорамный вид на город."
@@ -49,7 +49,7 @@ const attractions = [
         id: 6,
         name: "Музей-усадьба В.И. Сурикова",
         category: "museum",
-        image: "https://images.unsplash.com/photo-1564399579883-451a5d44ec6d?w=500&h=300&fit=crop",
+        image: "https://images.unsplash.com/photo-1549887534-7aa0e73e70d3?w=500&h=300&fit=crop",
         description: "Дом-музей известного русского художника. Сохранена атмосфера жилища великого мастера живописи.",
         coordinates: "55.7621° N, 93.0265° E",
         facts: "Василий Иванович Суриков (1848-1916) - выдающийся русский живописец. Музей содержит его личные вещи и произведения искусства."
@@ -76,7 +76,7 @@ const attractions = [
         id: 9,
         name: "Литературный музей",
         category: "museum",
-        image: "https://images.unsplash.com/photo-1564399579883-451a5d44ec6d?w=500&h=300&fit=crop",
+        image: "https://images.unsplash.com/photo-150784272343-583f20270319?w=500&h=300&fit=crop",
         description: "Музей, посвященный литературной истории Красноярского края. Выставки о знаменитых писателях региона.",
         coordinates: "55.7615° N, 93.0570° E",
         facts: "В музее хранятся рукописи и издания известных писателей. Проводятся лекции и культурные мероприятия. Библиотека содержит редкие издания."
@@ -94,7 +94,7 @@ const attractions = [
         id: 11,
         name: "Туристический комплекс «Бор»",
         category: "nature",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500&h=300&fit=crop",
         description: "Лесной массив с развитой инфраструктурой для отдыха. Идеально подходит для семейного туризма.",
         coordinates: "55.8000° N, 93.1200° E",
         facts: "Комплекс включает турбазы, пансионаты и кемпинги. Здесь проложены туристические маршруты. Располагается в экологически чистой зоне."

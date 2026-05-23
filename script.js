@@ -4,7 +4,7 @@ const attractions = [
         id: 1,
         name: "Природный парк «Столбы»",
         category: "nature",
-        image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&h=300&fit=crop",
+        image: "https://kras-stolby.ru/media-proxy/cache/b6/96/b696518ae1f18d88bf424e899de05ad9.jpg",
         description: "Уникальный природный парк с красивыми скальными формированиями. Идеальное место для пеших прогулок и скалолазания.",
         coordinates: "55.7642° N, 93.0353° E",
         facts: "Столбы - это государственный природный заповедник, основанный в 1925 году. Площадь около 47,000 га. Высота столбов достигает 100 метров."
@@ -13,7 +13,7 @@ const attractions = [
         id: 2,
         name: "Енисей",
         category: "nature",
-        image: "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=500&h=300&fit=crop",
+        image: "https://avatars.mds.yandex.net/i?id=b022605ba71ed7abb8b8d11a3551889b_l-8081694-images-thumbs&n=13",
         description: "Один из крупнейших рек России. Енисей протекает через Красноярск, создавая величественный пейзаж.",
         coordinates: "55.7558° N, 93.0395° E",
         facts: "Енисей - третья по длине река России (3487 км). Впадает в Карское море. Пересекает три климатические зоны."
@@ -22,7 +22,7 @@ const attractions = [
         id: 3,
         name: "Красноярский краеведческий музей",
         category: "museum",
-        image: "https://images.unsplash.com/photo-1564399579883-451a5d44ec6d?w=500&h=300&fit=crop",
+        image: "https://avatars.mds.yandex.net/i?id=2cbbdb3cb2c022d8f3065fd3ecf3a597_l-5231505-images-thumbs&n=13",
         description: "Один из крупнейших музеев Сибири. Хранит богатую коллекцию артефактов, отражающих историю и культуру края.",
         coordinates: "55.7621° N, 93.0565° E",
         facts: "Музей основан в 1889 году. Коллекция насчитывает более 80,000 предметов. Здесь хранятся экспонаты, связанные с историей коренных народов Сибири."
@@ -40,7 +40,7 @@ const attractions = [
         id: 5,
         name: "Красноярск",
         category: "city",
-        image: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=500&h=300&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Красноярск_Стрелка_с_высоты.jpg/1280px-Красноярск_Стрелка_с_высоты.jpg",
         description: "Крупный город на берегу Енисея. Население около 1 млн человек. Центр культуры и образования Сибири.",
         coordinates: "55.7558° N, 93.0395° E",
         facts: "Красноярск основан в 1628 году как острог. Город входит в список самых красивых городов России. Здесь проводилась Универсиада 2019."
@@ -49,7 +49,7 @@ const attractions = [
         id: 6,
         name: "Музей-усадьба В.И. Сурикова",
         category: "museum",
-        image: "https://images.unsplash.com/photo-1549887534-7aa0e73e70d3?w=500&h=300&fit=crop",
+        image: "https://avatars.mds.yandex.net/i?id=d4acf6f6a96b56f6d1523a3100edca3c_l-9690504-images-thumbs&n=13",
         description: "Дом-музей известного русского художника. Сохранена атмосфера жилища великого мастера живописи.",
         coordinates: "55.7621° N, 93.0265° E",
         facts: "Василий Иванович Суриков (1848-1916) - выдающийся русский живописец. Музей содержит его личные вещи и произведения искусства."
@@ -58,7 +58,7 @@ const attractions = [
         id: 7,
         name: "Саяны",
         category: "nature",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Саянские_горы_возле_Аршана.jpg/960px-Саянские_горы_возле_Аршана.jpg",
         description: "Горная система на юге Красноярского края. Популярное место для горного туризма и альпинизма.",
         coordinates: "52.5 ° N, 92.5° E",
         facts: "Западные и Восточные Саяны - важная часть природного наследия. Высочайшая точка - гора Мунку-Чsardык (3491 м). Богаты полезными ископаемыми."
@@ -67,7 +67,7 @@ const attractions = [
         id: 8,
         name: "Ярмарка «Красноярская»",
         category: "cultural",
-        image: "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=500&h=300&fit=crop",
+        image: "https://avatars.mds.yandex.net/i?id=ec7659bd5d50f2e0b43eca3a5ac44361_l-5260221-images-thumbs&n=13",
         description: "Международная ярмарка. Проходит ежегодно и является одним из крупнейших событий региона.",
         coordinates: "55.7650° N, 93.0420° E",
         facts: "Краевая ярмарка существует с 1993 года. Привлекает более 200,000 посетителей. На ней представлены товары и услуги из разных регионов."
@@ -76,7 +76,7 @@ const attractions = [
         id: 9,
         name: "Литературный музей",
         category: "museum",
-        image: "https://images.unsplash.com/photo-150784272343-583f20270319?w=500&h=300&fit=crop",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Литературный_музей_им._В.П._Астафьева.jpg/1280px-Литературный_музей_им._В.П._Астафьева.jpg",
         description: "Музей, посвященный литературной истории Красноярского края. Выставки о знаменитых писателях региона.",
         coordinates: "55.7615° N, 93.0570° E",
         facts: "В музее хранятся рукописи и издания известных писателей. Проводятся лекции и культурные мероприятия. Библиотека содержит редкие издания."
@@ -85,7 +85,7 @@ const attractions = [
         id: 10,
         name: "Красноярская ГЭС",
         category: "historical",
-        image: "https://images.unsplash.com/photo-1497206365907-3ff2691f4d6d?w=500&h=300&fit=crop",
+        image: "https://resize.tripster.ru/oUJCl60VYr7sw1dMA2o2NYydrFE=/fit-in/1080x810/filters:no_upscale()/https://cdn.tripster.ru/photos/ffb1b560-02a6-42d5-b037-a87f0387803a.jpg",
         description: "Одна из крупнейших гидроэлектростанций России. Грандиозное инженерное сооружение советской эпохи.",
         coordinates: "56.0199° N, 93.0558° E",
         facts: "ГЭС построена в 1971 году. Плотина имеет высоту 124 метра. Мощность станции 6000 МВт. Создано крупное водохранилище."
@@ -94,7 +94,7 @@ const attractions = [
         id: 11,
         name: "Туристический комплекс «Бор»",
         category: "nature",
-        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500&h=300&fit=crop",
+        image: "https://cdn.worldota.net/t/1024x768/extranet/cf/03/cf032ae62f40b00a50a372f77344d8018020bbd5.jpeg",
         description: "Лесной массив с развитой инфраструктурой для отдыха. Идеально подходит для семейного туризма.",
         coordinates: "55.8000° N, 93.1200° E",
         facts: "Комплекс включает турбазы, пансионаты и кемпинги. Здесь проложены туристические маршруты. Располагается в экологически чистой зоне."
@@ -103,7 +103,7 @@ const attractions = [
         id: 12,
         name: "Церковь Архангела Михаила",
         category: "temple",
-        image: "https://images.unsplash.com/photo-1548625149-fc4a99b01d4d?w=500&h=300&fit=crop",
+        image: "https://avatars.mds.yandex.net/i?id=6b7e2115ce7ace2fff5d662465ced191_l-5329060-images-thumbs&n=13",
         description: "Историческая церковь с уникальной архитектурой. Один из старейших храмов Красноярска.",
         coordinates: "55.7598° N, 93.0445° E",
         facts: "Церковь построена в 1861 году. Выполнена в псевдорусском стиле. Недавно отреставрирована и открыта для посещения."

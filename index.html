@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Достопримечательности Красноярского края</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🏔️ Красноярский край</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#attractions" class="nav-link">Достопримечательности</a></li>
+                <li><a href="#about" class="nav-link">О проекте</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Откройте красоту Красноярского края</h2>
+            <p>Исследуйте уникальные достопримечательности, природные заповедники и культурное наследие</p>
+            <button class="btn-primary" onclick="document.getElementById('attractions').scrollIntoView({behavior: 'smooth'})">Начать исследование</button>
+        </div>
+    </section>
+
+    <!-- Фильтр и поиск -->
+    <section class="search-section">
+        <div class="container">
+            <h3>Найдите интересующую вас достопримечательность</h3>
+            <div class="search-controls">
+                <input type="text" id="searchInput" placeholder="Поиск по названию..." class="search-input">
+                <select id="categoryFilter" class="category-select">
+                    <option value="all">Все категории</option>
+                    <option value="nature">🌲 Природа</option>
+                    <option value="museum">🏛️ Музеи</option>
+                    <option value="temple">⛩️ Храмы</option>
+                    <option value="city">🏙️ Города</option>
+                    <option value="historical">📚 Исторические объекты</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Достопримечательности -->
+    <section id="attractions" class="attractions">
+        <div class="container">
+            <h2>Достопримечательности</h2>
+            <div class="attractions-grid" id="attractionsGrid">
+                <!-- Карточки будут загружены через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- О проекте -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О проекте</h2>
+            <div class="about-content">
+                <p>
+                    Этот проект создан с целью представить богатство и красоту Красноярского края широкой аудитории. 
+                    Мы собрали информацию о самых интересных и значимых достопримечательностях региона.
+                </p>
+                <p>
+                    Сайт адаптирован для использования на всех устройствах - от смартфонов до компьютеров, 
+                    что позволяет вам исследовать достопримечательности как дома, так и во время путешествий.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contact-info">
+                <p>📧 Email: info@krasnoyarsk-attractions.ru</p>
+                <p>📞 Телефон: +7 (391) 000-00-00</p>
+                <p>📍 Красноярск, Россия</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно для детального просмотра -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="">
+                <h2 id="modalTitle"></h2>
+                <p id="modalCategory"></p>
+                <p id="modalDescription"></p>
+                <p id="modalCoordinates"></p>
+                <p id="modalFacts"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Достопримечательности Красноярского края. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

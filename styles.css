@@ -60,7 +60,7 @@ body {
 /* Герой секция */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-                url('https://static.alltime.ru/obj/article/image-blog/Krasnoyarsk/Krasnoyarsk_2.jpg') center/cover no-repeat;
+                url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Красноярск_%28ночной%29.jpg/1280px-Красноярск_%28ночной%29.jpg') center/cover no-repeat;
     height: 500px;
     display: flex;
     align-items: center;

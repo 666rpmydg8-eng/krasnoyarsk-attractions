@@ -60,7 +60,7 @@ body {
 /* Герой секция */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-                url('https://avatars.mds.yandex.net/get-altay/15434262/2a0000019928f9072b52f8b421fea6b5613a/orig') center/cover no-repeat;
+                url('https://static.alltime.ru/obj/article/image-blog/Krasnoyarsk/Krasnoyarsk_2.jpg') center/cover no-repeat;
     height: 500px;
     display: flex;
     align-items: center;

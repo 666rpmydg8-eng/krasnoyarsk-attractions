@@ -60,7 +60,7 @@ body {
 /* Герой секция */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-                url('https://avatars.mds.yandex.net/i?id=a0d9d2f95adc1349705ad8149a68d013_l-5498962-images-thumbs&n=13') center/cover no-repeat;
+                url('https://travelask.ru/system/images/files/001/259/944/wysiwyg_jpg/Krasnoyarsk.jpg?1548172066') center/cover no-repeat;
     height: 500px;
     display: flex;
     align-items: center;

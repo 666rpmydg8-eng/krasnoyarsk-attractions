@@ -60,7 +60,7 @@ body {
 /* Герой секция */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-                url('https://travelask.ru/system/images/files/001/259/944/wysiwyg_jpg/Krasnoyarsk.jpg?1548172066') center/cover no-repeat;
+                url('https://static.tildacdn.com/tild3038-6561-4261-b163-303838623436/4.jpg') center/cover no-repeat;
     height: 500px;
     display: flex;
     align-items: center;

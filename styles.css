@@ -60,7 +60,7 @@ body {
 /* Герой секция */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-                url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=500&fit=crop') center/cover no-repeat;
+                url('https://upload.wikimedia.org/wikipedia/commons/d/db/Речной_вокзал_Красноярск_2020.jpg') center/cover no-repeat;
     height: 500px;
     display: flex;
     align-items: center;
